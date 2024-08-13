@@ -25,13 +25,13 @@ Evaluate the models.
 Split the Data into Training and Testing Sets
 Open the starter code notebook and then use it to complete the following steps.
 
-Read the data from https://static.bc-edx.com/ai/ail-v-1-0/m13/challenge/spam-data.csvLinks to an external site. into a Pandas DataFrame.
+Read the data from https://static.bc-edx.com/ai/ail-v-1-0/m13/challenge/spam-data.csv into a Pandas DataFrame.
 
 In the appropriate markdown cell, make a prediction as to which model you expect to do better.
 
 Create the labels set (y) from the “spam” column, and then create the features (X) DataFrame from the remaining columns.
 
-note
+note:
 A value of 0 in the “spam” column means that the message is legitimate. A value of 1 means that the message has been classified as spam.
 
 Check the balance of the labels variable (y) by using the value_counts function.
